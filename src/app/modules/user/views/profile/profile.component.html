@@ -1,0 +1,15 @@
+<mat-grid-list cols="8" rowHeight="25px">
+  <mat-grid-tile [rowspan]="3">
+    <img src="{{ user.photoUrl }}">
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="7" class="left">
+    <label>{{ user.displayName }}</label>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="7" class="left">
+    <label>{{ user.email }}</label>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="7" class="left">
+    <label>{{ user.username }}</label>
+  </mat-grid-tile>
+</mat-grid-list>
+

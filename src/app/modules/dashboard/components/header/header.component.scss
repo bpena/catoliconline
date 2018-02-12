@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: row;
+
+  .separator {
+    flex: 1;
+  }
+
+  .logo {
+    font-size: 1.9em;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .sub {
+      color: #3b5998;
+    }
+  }
+
+  .image {
+    height: 40px;
+    width: 40px;
+  }
+}
